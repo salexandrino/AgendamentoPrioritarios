@@ -1,3 +1,6 @@
+
+package main.java;
+
 public class Paciente {
 
     private long cpf;
@@ -6,8 +9,13 @@ public class Paciente {
     private TipoAtendimento tipoAtendimento;
     private int idade;
 
-    public Paciente(long cpf, String nome, String cartaoSUS,
-                    TipoAtendimento tipoAtendimento, int idade) {
+    public Paciente(
+            long cpf,
+            String nome,
+            String cartaoSUS,
+            TipoAtendimento tipoAtendimento,
+            int idade) {
+
         this.cpf = cpf;
         this.nome = nome;
         this.cartaoSUS = cartaoSUS;
@@ -43,7 +51,8 @@ public class Paciente {
         return tipoAtendimento;
     }
 
-    public void setTipoAtendimento(TipoAtendimento tipoAtendimento) {
+    public void setTipoAtendimento(
+            TipoAtendimento tipoAtendimento) {
         this.tipoAtendimento = tipoAtendimento;
     }
 

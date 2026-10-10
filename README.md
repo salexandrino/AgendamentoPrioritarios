@@ -7,7 +7,7 @@ O **Sistema de Agendamento da Unidade Básica de Saúde (UBS)** é uma solução
 ## 📌 Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Estrutura de Dados](#-estrutura-de-dados)
-- [Modelagem do Paciente](#-modelagem-do-paciente)
+- [Modelagem do main.java.Paciente](#-modelagem-do-paciente)
 - [Operações Principais](#-operações-principais)
 - [Roteiro de Testes Executado](#-roteiro-de-testes-executado)
 - [Requisitos do Vídeo de Demonstração](#-requisitos-do-vídeo-de-demonstração)
@@ -32,7 +32,7 @@ A agenda de atendimentos é gerenciada por um **Max Heap**, onde:
 
 ---
 
-## 👤 Modelagem do Paciente
+## 👤 Modelagem do main.java.Paciente
 
 Cada nó/elemento armazenado no Heap representa um paciente com os seguintes atributos:
 
